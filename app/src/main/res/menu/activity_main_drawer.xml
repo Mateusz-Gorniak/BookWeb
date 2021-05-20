@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bookweb"
+            android:title="@string/BookWeb"
+            android:onClick="Toast1"
+            />
+        <item
+            android:id="@+id/nav_math"
+            android:title="@string/Math"
+            android:onClick="Toast2"
+            />
+        <item
+            android:id="@+id/nav_inf"
+            android:title="@string/Inf"
+            android:onClick="Toast3"
+            />
+        <item
+            android:id="@+id/nav_elec"
+            android:title="@string/Elec"
+            android:onClick="Toast4"
+            />
+        <item
+            android:id="@+id/nav_lista"
+            android:title="@string/Lista"
+            android:onClick="Lista"
+            />
+    </group>
+
+
+</menu>

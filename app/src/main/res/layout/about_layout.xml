@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AboutProgramActivity"
+
+    >
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/CardView1"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/twotone_book_green_700_48dp"
+        android:id="@+id/book"
+
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Book Master"
+    android:textStyle="bold|italic"
+    android:textSize="30dp"
+    android:padding="20dp"
+    android:gravity="center"
+    android:id="@+id/BK"
+    android:layout_marginTop="50dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikacja do komentowania książęk"
+        android:gravity="center"
+        android:id="@+id/APK"
+        android:layout_marginTop="120dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wersja 1.1"
+        android:gravity="center"
+        android:id="@+id/WER"
+        android:layout_marginTop="140dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Autorzy:"
+        android:id="@+id/aut"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Jakub Giszka"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="190dp"
+        />
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>

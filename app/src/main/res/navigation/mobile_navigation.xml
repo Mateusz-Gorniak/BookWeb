@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bookweb">
+
+    <fragment
+        android:id="@+id/nav_bookweb"
+        android:name="pl.giszka.bookweb.ui.home.HomeFragment"
+        android:label="@string/BookWeb"
+        tools:layout="@layout/fragment_bookweb"
+        />
+
+    <fragment
+        android:id="@+id/nav_math"
+        android:name="pl.giszka.bookweb.ui.gallery.GalleryFragment"
+        android:label="@string/Math"
+        tools:layout="@layout/fragment_math" />
+
+    <fragment
+        android:id="@+id/nav_inf"
+        android:name="pl.giszka.bookweb.ui.slideshow.SlideshowFragment"
+        android:label="@string/Inf"
+        tools:layout="@layout/fragment_inf" />
+
+    <fragment
+        android:id="@+id/nav_elec"
+        android:name="pl.giszka.bookweb.ui.slideshow.SlideshowFragment"
+        android:label="@string/Elec"
+        tools:layout="@layout/fragment_elec" />
+</navigation>
